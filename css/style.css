@@ -1,38 +1,54 @@
 body {
-  background-color: black;
   text-align: center;
-}
-
-h1,h2 {
-  color:white;
+  font-family: Helvetica;
 }
 
 h1 {
-  font-family: Verdana;
-  font-weight: normal;
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
+  color:white;
 }
 
- h2 {
-   font-family: Verdana;
-   font-weight: 300;
-   font-size: 42px;
- }
-
-.description {
-  font-family: Verdana;
-  font-size: 21px;
-  color: gray;
+.menu {
+  font-size: 18px;
+  color:white;
 }
 
-.download a {
-  color: Aquamarine;
-  font-size: 16px;
+.header {
+  background-image: url("/Users/balazs/Desktop/Codecademy-projects/gitwebsite/fbalazs99.github.io/broadway/resources/the-flatiron-building.png");
 }
 
-.section_footer p {
-  text-align: right;
-  color: gray;
-  font-family: Verdana;
-  font-size: 21px;
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.third_section h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("/Users/balazs/Desktop/Codecademy-projects/gitwebsite/fbalazs99.github.io/broadway/resources/the-flatiron-building.png");
+}
+
+.footer span {
+  font-size: 11px;
+  color:white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer {
+  background-color: dimgray;
+  text-align: left;
 }
